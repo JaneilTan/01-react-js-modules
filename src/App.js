@@ -1,18 +1,6 @@
 import "./App.css";
 import products from "./api/products.json";
-
-const FilterBy = () => {
-  return (
-    <div className="filterBy">
-      <label htmlFor="category">Filter by</label>
-      <select id="category" defaultValue="all">
-        <option value="all">All</option>
-        <option value="accessories">Accessories</option>
-        <option value="sunglasses">Sunglasses</option>
-      </select>
-    </div>
-  );
-};
+import FilterBy from "./components/FilterBy";
 
 const SortBy = () => {
   return (
