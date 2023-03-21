@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Product component as expected 1`] = `
+<DocumentFragment>
+  <li
+    class="product-grid-item"
+  >
+    <img
+      alt="THE RONNIE MAC"
+      src="https://files.stripe.com/links/fl_test_HG5Y5oY5y2SlpQMclkQ0rjXm"
+    />
+    <h3>
+      THE RONNIE MAC
+    </h3>
+    <p>
+      The sunglasses Ronnie Mac would wear if Ronnie Mac wore sunglasses.
+    </p>
+    <button>
+      Buy now 
+    </button>
+  </li>
+</DocumentFragment>
+`;

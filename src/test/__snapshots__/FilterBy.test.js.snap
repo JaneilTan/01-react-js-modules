@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the FilterBy component as expected 1`] = `
+<DocumentFragment>
+  <div
+    class="filterBy"
+  >
+    <label
+      for="category"
+    >
+      Filter by
+    </label>
+    <select
+      id="category"
+    >
+      <option
+        selected=""
+        value="all"
+      >
+        All
+      </option>
+      <option
+        value="accessories"
+      >
+        Accessories
+      </option>
+      <option
+        value="sunglasses"
+      >
+        Sunglasses
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
